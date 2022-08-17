@@ -16,3 +16,5 @@ jobs:
           # to the issue
           project-url: https://github.com/carinaluise/projects/1
           github-token: ${{ secrets.ADD_TO_PROJECT_PAT }}
+          labeled: bug, needs-triage
+          label-operator: OR
