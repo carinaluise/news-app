@@ -52,8 +52,8 @@ body:
       description: Please specify browser information
       placeholder: Which browser are you using?
       value: "
-         - Operating System [e.g IOS]
-         - Browser [e.g chrome, safari]
+         - Operating System [e.g IOS] \n
+         - Browser [e.g chrome, safari] \n
          - Version [e.g 22]
        "
     validations:
@@ -65,9 +65,9 @@ body:
       description: Please specify device information
       placeholder: Which device are you using?
       value: "
-         - Device [e.g. iPhone6]
-         - OS [e.g. iOS8.1]
-         - Browser [e.g. stock browser, safari]
+         - Device [e.g. iPhone6] \n
+         - OS [e.g. iOS8.1] \n
+         - Browser [e.g. stock browser, safari] \n
          - Version [e.g 22]
        "
     validations:
