@@ -3,6 +3,10 @@ description: "File a bug report"
 title: "[Bug]: "
 labels: ["bug"]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
   - type: input
     id: contact
     attributes:
@@ -48,11 +52,11 @@ body:
       description: Please specify browser information
       placeholder: Which browser are you using?
       value: "
-       - Operating System: [e.g IOS]
+       - Operating System [e.g IOS]
        - Browser [e.g chrome, safari]
        - Version [e.g 22]
       "
-    validations:
+     validations:
       required: true
    - type: textarea
     id: smartphone
@@ -61,8 +65,8 @@ body:
       description: Please specify device information
       placeholder: Which device are you using?
       value: "
-       - Device: [e.g. iPhone6]
-       - OS: [e.g. iOS8.1]
+       - Device [e.g. iPhone6]
+       - OS [e.g. iOS8.1]
        - Browser [e.g. stock browser, safari]
        - Version [e.g 22]
       "
