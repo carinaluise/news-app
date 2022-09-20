@@ -31,9 +31,9 @@ body:
       description: Steps to reproduce the behavior
       placeholder: Tell us what you see!
       value: "
-        1. Go to '...'
-        2. Click on '....'
-        3. Scroll down to '....'
+        1. Go to '...' /n
+        2. Click on '....' /n
+        3. Scroll down to '....' /n
         4. See error
        "
     validations:
