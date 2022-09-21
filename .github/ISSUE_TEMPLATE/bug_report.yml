@@ -30,7 +30,7 @@ body:
       label: How to reproduce the bug?
       description: Steps to reproduce the behavior
       placeholder: Tell us what you see!
-      value: | " 
+      value:  " | 
         1. Go to '...' 
         2. Click on '....' 
         3. Scroll down to '....' 
